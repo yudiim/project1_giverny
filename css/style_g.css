@@ -1,0 +1,96 @@
+/* 보완해야 할 것 : 
+1. main-list 다시 눌렀을 때 메뉴 접히게 하는 기능 추가
+2. 다른 main-list 눌렀을 때 배경색 사라지게 하는 기능 추가
+*/
+
+#wrap{ width: 390px; margin: 0 auto; overflow: hidden;}
+
+/* main-banner */
+.main-banner{ height: 788px; z-index: 999;}
+
+/* best-seller */
+.best-seller{  height: 923px; background-color: #fff; text-align: center; position: relative; overflow: hidden;}
+.best-seller .bg_video{  position: absolute; top: 0; left: 0; width: 100%;}
+.best-seller .best-seller-con{ position: absolute; top:0; left:0; z-index: 99;}
+.best-seller h3{ font-size: 24px;padding: 100px 0;}
+.best-seller .slide02{ width: 390px; height: 923px; }
+.best-seller .mySwiper2{ height: 923px;}
+.best-seller .slide02 .swiper-slide>img{ width: 300px; }
+
+.best-seller .slide02 .swiper-slide .desciption{ padding-top: 30px;}
+
+.best-seller .slide02 .swiper-slide .slideTitle{ font-weight: bold; font-size: 18px;  }
+.best-seller .slide02 .swiper-slide .slideQuote{ width: 25px; padding:50px 0;}
+.best-seller .slide02 .swiper-slide .slideDescription{ text-align: left;  
+  position: absolute; left:50%; transform: translateX(-50%); white-space: nowrap;}
+.best-seller .slide02 .swiper-slide .slideUserID { position: absolute; left:50%; transform: translateX(-50%); top:650px}
+
+/* MDpick */
+.MDpick{ height: 1694px; background-color: #ffefe98c;}
+.MDpick h3{ font-size: 24px; text-align: center; padding: 109px 0 44px 0;
+    /* position: absolute; top: 63px; left: 135px; */
+}
+.MDpick .item01{ height: 420px; float: right; padding: 0 20px 77px 0; position: relative;}
+.MDpick .item01 img{ width: 296px; height: 330px; float: right;}
+.MDpick .item01 p{ padding: 17px 0; float: right; }
+.MDpick .item01 span{ display: block; width: 137px; height: 36px; background-color: #8B8B8B; 
+    position: absolute; top: 77%; left: 59%;}
+.MDpick .item01 h4{ width: 100%; font-size: 14px; transform: rotate(270deg) translate(62%,-90%); font-weight: normal; font-family: sans-serif;}
+
+.MDpick .item02{ height: 440px; float: left;  padding: 0 0 77px 20px; position: relative;}
+.MDpick .item02 img{ width: 296px; height: 330px; float: left;}
+.MDpick .item02 p{ padding: 17px 0; float: left; }
+.MDpick .item02 span{ display: block; width: 137px; height: 36px; background-color: #8B8B8B; 
+  position: absolute; top: 77%;}
+  .MDpick .item02 h4{ width: 100%; font-size: 14px; transform: rotate(-270deg) translate(-49%,-90%); font-weight: normal; font-family: sans-serif;}
+  
+  .MDpick .item03{ height: 417px; float: right; padding: 0 20px 77px 0; position: relative;}
+  .MDpick .item03 img{ width: 296px; height: 330px; float: right;}
+  .MDpick .item03 p{ padding: 17px 0; float: right; }
+  .MDpick .item03 span{ display: block; width: 137px; height: 36px; background-color: #8B8B8B; 
+    position: absolute; top: 77%; left: 59%;}
+    .MDpick .item03 h4{ width: 100%; font-size: 14px; transform: rotate(270deg) translate(62%,-90%); font-weight: normal; font-family: sans-serif;}
+
+.MDpick span a{ color: #fff; font-size: 20px; position: absolute; top: 7px; left: 14px; text-align: center; }
+
+ /* review */
+.review{ height: 446px; border-bottom: 1px solid #8B8B8B;}
+.review h3{ font-size: 24px; text-align: center; padding: 93px 0 47px 0;}
+.review .review-video{ text-align: center;}
+
+/* giverny_sns */
+.giverny_sns{ height: 614px; position: relative; overflow: hidden;}
+.giverny_sns h3{ text-align: right; padding: 51px 11px 0 0; font-size: 24px;}
+.giverny_sns h3 a{ color: #363636;}
+.giverny_sns p{ text-align: right; line-height: 25px; font-size: 14px; padding-right: 11px;}
+
+.giverny_sns>.sns01{ width: 130px; height: 130px; position: absolute; animation-name: move;
+ animation-duration: 60s; animation-iteration-count: infinite;}
+  
+@keyframes move {
+  /* 0%   {left:-160px; top:141px;} */
+  0%   {left:100px; top:141px;}
+  50%  {left:450px; top:141px;}
+  100% {left:-160px; top:141px;}
+}
+.giverny_sns>.sns02{ width: 196px; height: 196px; position: absolute; animation-name: move2;
+ animation-duration: 75s; animation-iteration-count: infinite;}
+  
+@keyframes move2 {
+  /* 0%   {left:-226px; top:223px;} */
+  0%   {left:0px; top:223px;}
+  50%  {left:450px; top:223px;}
+  100% {left:-226px; top:223px;}
+}
+.giverny_sns>.sns03{ width: 146px; height: 146px; position: absolute; animation-name: move3;
+ animation-duration: 50s; animation-iteration-count: infinite;}
+  
+@keyframes move3 {
+  /* 0%   {left:-176px; bottom:66px;} */
+  0%   {left:200px; bottom:66px;}
+  50%  {left:450px; bottom:66px;}
+  100% {left:-176px; bottom:66px;}
+}
+
+.giverny_sns img{ width: 100%;}
+

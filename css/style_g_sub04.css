@@ -1,0 +1,31 @@
+#container{ width: 390px; margin: 0 auto;}
+
+.title_box{ height: 206px;}
+.title_box h3{ font-size: 24px; font-family: 'SCDream4',sans-serif; text-align: center; line-height: 110px;}
+.title_box .review_write{ border: 0; line-height: 38px; width: 270px; margin: 0 60px; background-color: #666666; color: #fff; cursor: pointer;}
+.title_box .review_search{ width: 222px; height: 22px; padding: 27px 84px 0; position: relative; }
+.title_box .reviewSearchBtn{ width: 18px; height: 18px; position: absolute; border: 0; outline: 0; 
+    background-image: url(../img/search_btn.png); background-size: 18px 18px; background-color: transparent;
+bottom: 5px; right: 88px; cursor: pointer;
+}
+.title_box input[type=text]{width: 220px; line-height: 32px; height: 20px; border: 0; outline: 0;  position: absolute; border-bottom: 1px solid #666666;}
+
+.section{ height: 958px; display: flex; flex-direction: column; justify-content: space-between;}
+
+.review{ height: 174px; position: relative;}
+.review img{ width: 119px; padding-top: 5px; box-sizing: border-box;}
+.review .review_info{ width: 260px; height: 119px; float: right;}
+.review li{ font-size: 14px; color: #7D7D7D;}
+.review .itemName{ line-height: 28px; padding-top: 10px;}
+.review .stars{ line-height: 28px;}
+.review .totalScore{ display: inline-block; line-height: 28px; font-size: 13px;}
+.review .totalScore_count{ display: inline-block; line-height: 28px; color: red; font-size: 13px;}
+.review .reviews{ display: inline-block; line-height: 28px; font-size: 13px;}
+.review .reviews_count{ display: inline-block; line-height: 28px; color: red; font-size: 13px;}
+.review .description{ line-height: 28px;}
+.review .review_more{ width: 90%; height: 36px; position: absolute; bottom: 10px; left: 20px; cursor: pointer;
+border: 0; outline: 0; background-color: #F0F0F0; font-family: 'SCDream4',sans-serif; color: #707070;}
+
+.more_box{ height: 125px;}
+.more_box .moreBtn{ width: 103px; line-height: 36px; border: 0; outline: 0; background-color: #666666; color: #fff;
+    font-family: 'SCDream4',sans-serif; font-size: 14px; margin: 37px 143px; cursor: pointer;}

@@ -1,0 +1,29 @@
+#container{ width: 390px; margin: 0 auto;}
+
+.item_slide{ height: 435px;}
+.item_slide img{ width: 390px;}
+
+.item_info{ height: 177px; }
+.item_info h3{ font-family: 'NanumSquareR',sans-serif; font-size: 18px; text-align: center; line-height: 36px;}
+
+.item_info .comment{ font-size: 14px; color: #707070; text-align: center; line-height: 24px; margin-bottom: 20px;}
+.item_info .cost{font-size: 14px; color: #B4B4B4; display: inline-block; text-align: center; margin-left: 146px; line-height: 24px;}
+.item_info .discount{ font-size: 14px; color: #e78079; font-weight: bold; display: inline-block; margin-right: 145px;}
+.item_info .price{ font-size: 16px; color: #707070; font-weight: bold; text-align: center; line-height: 24px;}
+.item_info .stars{ font-size: 14px; color: #707070; text-align: center; line-height: 48px;}
+
+.item_color{ height: 120px; position: relative;}
+.item_color h5{ text-align: center; font-family: 'NanumSquareR',sans-serif; font-size: 14px; line-height: 28px;}
+.item_color .color1{ display: inline-block; width: 40px; height: 40px; background-color: #F2CBAC; 
+position: absolute; top: 35px; left: 146px; border-radius: 20px;}
+.item_color .color2{ display: inline-block; width: 40px; height: 40px; background-color: #E4B790; 
+position: absolute; top: 35px; right: 146px; border-radius: 20px;}
+
+.tap_menu{ height: 56px;  border-top: 1px solid #b4b4b4; border-bottom: 1px solid #b4b4b4;}
+.tap_menu li{ float: left; width: 130px; line-height: 56px; text-align: center;}
+
+/* .item_description{ height: ;} */
+.item_detail img{ width: 390px;}
+
+.item_description .caution{ font-size: 13px;}
+.item_description .cosmetic_ingredient{ font-size: 13px;}
